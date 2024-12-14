@@ -14,17 +14,21 @@ Very important:
 3. Midi-trs is type A
 
 BOM
-  Resistors (4):
-    R1:   10R
-    R2:   33R
-    R3:   220R
-    R4:   470R
-  caps (1):
-    C1:   100nF
-  diodes (1):
-    D1:   1N4148
-  Optocoupler (1):
-    U1    H11L1
+Resistors (4):
+
+R1: 10R
+R2: 33R
+R3: 220R
+R4: 470R
+
+caps (1):
+C1: 100nF
+
+diodes (1):
+D1: 1N4148
+
+Optocoupler (1):
+U1: H11L1
 
 
 If you want to know more about ESP8266 bare chip wiring there’s a great guide from Pieter P:
