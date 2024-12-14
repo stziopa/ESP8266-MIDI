@@ -3,14 +3,14 @@ wiring of MIDI input and output
 
 This repository is about the wiring of MIDI input and output with the ESP8266 bare chip. 
 
-Wemos or Nodemcu users tinkers - as me - might have failed to get MIDI from other devices. This happens most likely because of the auto reset / boot circuit which is hardwired to the USB UART driver bult-in in most development boards.
+Wemos or Nodemcu users tinkers - as me - might have failed to get MIDI from other devices. This happens most likely because of the auto reset / boot circuit which is hardwired to the built-in USB UART driver of most development boards.
 
-After doing a quite extensive research and thanks to the many open-source and forum communities I finally managed to get it working so I hope this could be useful to somebody else than me!
+After doing a quite extensive research and thanks to the many open-source and forums resources I finally managed to get it working so I hope this could be useful to somebody else too!
 
 
 Very important:
 1. This schematics are valid for the ESP8266 bare chip only (not development boards)
-2. MIDI in/out are wired respectively to RX/TX pins therefore the usb-uart serial monitor won’t work (but you can still use it  for flashing the chip)
+2. MIDI in/out are wired respectively to RX/TX pins therefore the usb-uart serial monitor won’t work (but you can still use them to flash the chip)
 3. Midi-trs is type A
 
 BOM
@@ -40,3 +40,4 @@ If you’re programming the ESP8266 within the Arduino environment - as I do - t
 Let me know if I forgot to mention something .
 Enjoy prototyping!
 
+2024-12-14 CC-BY-SA 4.0 Stefano Manconi aka stziopa
