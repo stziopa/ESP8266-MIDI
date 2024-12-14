@@ -8,26 +8,28 @@ Wemos or Nodemcu users tinkers - as me - might have failed to get MIDI from othe
 After doing a quite extensive research and thanks to the many open-source and forums resources I finally managed to get it working so I hope this could be useful to somebody else too!
 
 
-Very important:
+## Very important:
 1. This schematics are valid for the ESP8266 bare chip only (not development boards)
 2. MIDI in/out are wired respectively to RX/TX pins therefore the usb-uart serial monitor won’t work (but you can still use them to flash the chip)
 3. Midi-trs is type A
 
 BOM
-Resistors (4):
-
+### Resistors (4):
 R1: 10R
+
 R2: 33R
+
 R3: 220R
+
 R4: 470R
 
-caps (1):
+### caps (1):
 C1: 100nF
 
-diodes (1):
+### diodes (1):
 D1: 1N4148
 
-Optocoupler (1):
+### Optocoupler (1):
 U1: H11L1
 
 
