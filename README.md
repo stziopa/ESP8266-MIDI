@@ -10,7 +10,7 @@ After doing a quite extensive research and thanks to the many open-source and fo
 
 ## Very important:
 1. This schematics are valid for the ESP8266 bare chip only (not development boards)
-2. MIDI in/out are wired respectively to RX/TX pins therefore the usb-uart serial monitor won’t work (but you can still use them to flash the chip)
+2. MIDI in/out are wired respectively to RX/TX pins therefore the usb-uart serial monitor won’t work (you can still flash the chip)
 3. Midi-trs is type A
 
 ### BOM
