@@ -13,24 +13,14 @@ After doing a quite extensive research and thanks to the many open-source and fo
 2. MIDI in/out are wired respectively to RX/TX pins therefore the usb-uart serial monitor won’t work (but you can still use them to flash the chip)
 3. Midi-trs is type A
 
-BOM
-### Resistors (4):
-R1: 10R
+### BOM
+resistors (4): 10R, 33R, 220R, 470R
 
-R2: 33R
+capacitor (1): 100nF
 
-R3: 220R
+diode (1): 1N4148
 
-R4: 470R
-
-### caps (1):
-C1: 100nF
-
-### diodes (1):
-D1: 1N4148
-
-### Optocoupler (1):
-U1: H11L1
+optocoupler (1): H11L1
 
 
 If you want to know more about ESP8266 bare chip wiring there’s a great guide from Pieter P:
